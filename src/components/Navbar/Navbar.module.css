@@ -1,19 +1,45 @@
-.hello{
-    color: green;
-}
-.navigation{
-    margin-bottom: 30px;
-    padding: 10px;
-    background-color:aliceblue;
-}
 
+.navigation{
+    overflow: hidden;
+    margin-left: 30px;
+    width: 100%;
+}
 
 .navigation >  a{
-    padding: 80px;
+    float: left;
+    padding: 40px;
     text-decoration: none;
-    font: Ariel;
-    font-size: 35px;
-   
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight:500;
+    text-align: center;
+    color:darkblue;
+    margin-left: 10px;
+}
+
+.navigation > div{
+    float: right;
+    padding: 40px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight:500;
+    color:darkblue;
+}
+
+.navigation > button {
+    margin-right: 150px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: right;
+    width: 180px;
+    height: 50px;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color:dodgerblue;
+    border: 0px white;
+    border-radius: 50px;
 }
 
 .navigation >  a:nth-child(3){

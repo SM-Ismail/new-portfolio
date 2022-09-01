@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import classes from "./Identity.module.css";
+import {FaMobile} from "react-icons/fa";
 
 const Identity = () => {
 
@@ -19,12 +20,18 @@ const Identity = () => {
     return (
         <div className={classes.holder}>
             <div>
-                <img src={myProfile.avatar_url} alt="" srcset="" />
+                <div>
+                    <FaMobile size={'3em'} color={'cadetblue'}/>
+                </div>
+                <p>Solutions for your Website</p>
+                <h1>{myProfile.name}</h1>
+                {/* <h2>Hey there !!! Welcome to my Portfolio site...</h2> */}
+                <p>FrontEnd Developer at <span>HealthX</span>. Happy to have you here .. </p>
+                <button className={classes.consultation}>Free Consultation</button>
+                <button className={classes.services}>See my services</button>
             </div>
             <div>
-                <h1>{myProfile.name}</h1>
-                <h2>Hey there !!! Welcome to my Portfolio site...</h2>
-                <p>I am a FrontEnd Developer at <span>HealthX</span>. Happy to have you here .. </p>
+                <img src={myProfile.avatar_url} alt="" srcset="" />
             </div>
         </div>
     );

@@ -1,0 +1,36 @@
+.describe{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    font-family: Helvetica;
+    text-align: left;
+    margin: 100px;
+}
+.describe > div{
+    flex: 1;
+    margin-left: 50px;
+}
+.describe > div > p{
+    text-shadow: 1px 0px 1px  cadetblue;
+}
+.describe > div:nth-child(1) > p:nth-child(2){
+    font-size: 35px;
+}
+.describe > div:nth-child(1) > h3{
+    color: blue;
+    background-color: lightcyan;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10%;
+}
+.describe > div:nth-child(1) > p{
+    color:darkblue;
+}
+.describe > div:nth-child(2){
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight:lighter;
+    color: cadetblue;
+}

@@ -1,27 +1,27 @@
-.card > p:nth-child(1) > a{
+.card > p:nth-child(2) > a{
+    margin-top: 80px;
     text-decoration: none;
     font-size: 30px;    
-    color: darkcyan;
+    color: darkblue;
+    font-weight: bold;
 }
 
 .card{
-    border: 1px solid darkcyan;
-    border-radius: 10%;
-    box-shadow: 1px 1px 1px darkcyan;
+    border: 0px white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px gray;
     margin: 20px;
-    padding: 10px;
+    padding: 30px;
     height: 300px;
     width: 350px;
+    text-align: left;
 }
 
-.card > p:nth-child(1){
-    margin-top: 80px;
-}
-
-.card > p:nth-child(2){
+.card > p:nth-child(3){
     font-size: 20px;
 }
 
-.card > p:nth-child(3) {
-    margin-top: 70px; 
+.card > p:nth-child(4) {
+    color:cadetblue;
+    font-weight: 500;
 }
