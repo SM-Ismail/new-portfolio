@@ -1,0 +1,30 @@
+.holder{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+
+}
+.holder > div {
+
+    margin: 40px;
+    padding: 40px;
+    font-size: 20px;
+    flex: 1;
+    border-radius: 10%;
+}
+
+.holder > div:nth-child(1) >img {
+    border-radius: 50%;
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px gray;
+    
+}
+.holder > div:nth-child(2) > h1 {
+    text-shadow: 2px 1px 2px gray;
+    color: darkcyan;
+}
+
+.holder > div:nth-child(2) > p > span {
+    color: brown;
+    text-shadow: 1px 1px 1px brown;
+}

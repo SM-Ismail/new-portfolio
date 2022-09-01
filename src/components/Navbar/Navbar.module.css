@@ -1,0 +1,25 @@
+.hello{
+    color: green;
+}
+.navigation{
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color:aliceblue;
+}
+
+
+.navigation >  a{
+    padding: 80px;
+    text-decoration: none;
+    font: Ariel;
+    font-size: 35px;
+   
+}
+
+.navigation >  a:nth-child(3){
+
+}
+
+.navigation > div > a{
+
+}

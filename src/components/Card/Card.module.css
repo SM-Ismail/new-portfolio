@@ -1,0 +1,27 @@
+.card > p:nth-child(1) > a{
+    text-decoration: none;
+    font-size: 30px;    
+    color: darkcyan;
+}
+
+.card{
+    border: 1px solid darkcyan;
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px darkcyan;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 350px;
+}
+
+.card > p:nth-child(1){
+    margin-top: 80px;
+}
+
+.card > p:nth-child(2){
+    font-size: 20px;
+}
+
+.card > p:nth-child(3) {
+    margin-top: 70px; 
+}

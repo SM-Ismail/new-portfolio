@@ -1,0 +1,9 @@
+.media{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin: 30px;
+}
+.media > div{
+    flex: 0.25;  
+}
